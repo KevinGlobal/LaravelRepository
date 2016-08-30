@@ -1,21 +1,8 @@
 {
-  "name": "prettus/l5-repository",
+  "name": "kevinglobal/laravelrepository",
   "description": "Laravel 5 - Repositories to  the database layer",
   "keywords": ["laravel", "repository", "eloquent", "model", "cache"],
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Anderson Andrade",
-      "email": "contato@andersonandra.de",
-      "role": "Developer"
-    }
-  ],
-  "support": {
-    "email": "contato@andersonandra.de",
-    "issues":"https://github.com/andersao/l5-repository/issues",
-    "wiki":"https://github.com/andersao/l5-repository",
-    "source":"https://github.com/andersao/l5-repository"
-  },
   "require": {
     "illuminate/http": "~5.0",
     "illuminate/config": "~5.0",
@@ -28,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Prettus\\Repository\\": "src/Prettus/Repository/"
+      "KevinGlobal\\Repository\\": "src/KevinGlobal/Repository/"
     }
   },
   "config": {
